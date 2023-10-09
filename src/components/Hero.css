@@ -1,0 +1,17 @@
+.hero-section{
+    display: flex;
+}
+.hero-s{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    
+}
+.l-container, r-container{
+    padding: 1rem;
+}
+.btn-hero{
+    border-radius: 4px;
+    width:4rem;
+}

@@ -1,0 +1,59 @@
+
+.menu{
+    display:flex;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 20px;
+    justify-content: space-between;
+    
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .logo{
+    
+  }
+  .mobileNav{
+    display: none;
+  }
+  
+  @media (max-width:540px){
+  .desktopNav{
+    display: none;
+  }
+  .mobileNav{
+    display: flex;
+  }
+  .mobileHamburgerMenu{
+    background-color: rgb(27, 26, 26);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    
+   
+  padding: 10px 20px;
+   
+  }
+.header_nav>a{
+    list-style: none;
+  }
+  .closeButton{
+    width: 100%;
+    text-align: end;
+  }
+  }
